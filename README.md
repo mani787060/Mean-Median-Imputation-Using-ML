@@ -36,19 +36,19 @@ The workflow isolates the training set to calculate baseline central metrics, se
         ▼                                                     ▼
 
  Mean Imputation                                     Median Imputation
-(SimpleImputer)                                     (SimpleImputer)
+ (SimpleImputer)                                      (SimpleImputer)
         │                                                     │
         ▼                                                     ▼
 
- Suitable for                                      Suitable for
- Symmetric Data                                    Skewed Data
+  Suitable for                                          Suitable for
+ Symmetric Data                                         Skewed Data
         │                                                     │
         └──────────────────────┬──────────────────────────────┘
                                ▼
 
-                 ┌─────────────────────────────────────┐
-                 │     Imputed Feature Matrix          │
-                 └─────────────────────────────────────┘
+             ┌─────────────────────────────────────┐
+             │     Imputed Feature Matrix          │
+             └─────────────────────────────────────┘
 ```
 
 
